@@ -7,4 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'adminpro';
+  anio:Number = new Date().getFullYear()
 }
