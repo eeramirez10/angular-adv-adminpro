@@ -1,1 +1,9 @@
-<p>grafica1 works!</p>
+<div class="row">
+    <div *ngFor=" let tuv of tuvansa" class="col-6">
+        <div class="card">
+            <div class="card-body">
+                <app-dona [title]="tuv.title" [label]="tuv.lables" [data]="tuv.data"></app-dona>
+            </div>
+        </div>
+    </div>
+</div>
