@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { BreadcrumbsComponent } from './breadcrumbs/breadcrumbs.component';
 import { HeaderComponent } from './header/header.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
+import { RouterModule } from '@angular/router';
 
 let components =[
   BreadcrumbsComponent,
@@ -13,6 +14,7 @@ let components =[
 @NgModule({
   declarations: [components],
   imports: [
+    RouterModule,
     CommonModule
   ],
   exports: [components]

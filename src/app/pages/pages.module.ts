@@ -9,19 +9,22 @@ import { RouterModule } from '@angular/router';
 
 
 import { ComponentsModule } from '../components/components.module';
+import { AccountSettingsComponent } from './account-settings/account-settings.component';
 
-let components = [
+const components = [
   DashboardComponent,
   Grafica1Component,
   ProgressComponent,
-  PagesComponent
+  PagesComponent,
+  AccountSettingsComponent
 ]
 
 
 
 @NgModule({
   declarations: [
-    components
+    components,
+    
   ], 
   imports: [
     CommonModule,
