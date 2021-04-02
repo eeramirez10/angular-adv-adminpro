@@ -10,6 +10,7 @@ import { Component, OnInit } from '@angular/core';
 export class Grafica1Component implements OnInit {
 
   title1:String = "Ventas"
+  breadCrumbtitle:String = "Graficas"
 
   label: String[]= ['Mexico','Monterrey','Mexicali']
   data: number[]=[50,30,10]
